@@ -1,0 +1,63 @@
+@font-face {
+   font-family: njnaruto;
+   src:url(../fonts/njnaruto.ttf);
+}
+body {
+   font: Normal 50px Arial;
+   background-color: rgb(255, 255, 255);
+   justify-content: center;
+}
+#conteudo {
+   background-color: #ececec00;
+   display: flex;
+   justify-content: center;
+   margin-top: 200px;
+   margin: 200px 200px;
+}
+#allcontent {
+   margin: 20px 10px;
+   display: flex;
+   justify-content: center;
+   font-size: 80px;
+
+}
+main {
+   background-color: aliceblue;
+   text-align: center;
+   font:100px;
+   font-family: njnaruto;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(254, 254, 254);
+}
+main {
+   background: rgba(255, 255, 255, 0);
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+}
+
+.container-imagens {
+   background-color: #ff0000;
+   width: 300px;
+   height: 400px;
+   margin-top: auto;
+   margin-left: 60px;
+   
+}
+/* buttons style */
+ul {
+   list-style-type: none;
+}
+.button {
+  font: Normal 30px njnaruto;
+  background-color: hsl(62, 100%, 50%); /* Green */
+  color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.button:hover {
+   background-color: #ff4242; /* Green */
+   color: white;
+ }
