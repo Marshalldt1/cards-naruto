@@ -6,6 +6,7 @@ body {
    font: Normal 50px Arial;
    background-color: rgb(255, 255, 255);
    justify-content: center;
+   background-image: url(../image/teste.gif);
 }
 #conteudo {
    background-color: #ececec00;
